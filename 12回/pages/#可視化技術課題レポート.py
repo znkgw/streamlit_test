@@ -66,12 +66,12 @@ st.header("2.折れ線グラフの描画 ")
 2.折れ線グラフのオプション引数
 + plot()に指定できるオプション引数
 """
-image = Image.open('../図１.jpeg')
+image = Image.open('./図１.jpeg')
 st.image(image, use_column_width=True)
 """
 + 色や、マーカーの指定方法
 """
-image = Image.open('../表2.jpeg')
+image = Image.open('./表2.jpeg')
 st.image(image, use_column_width=True)
 """
 + 使用例
@@ -88,7 +88,7 @@ plt.plot(データ, linewidth=3)
 + 凡夫の設定を行う.legend()のオプション引数
   - 凡夫の設定を行うにはラベルを追加する必要がある
 """
-image = Image.open('../表3.jpeg')
+image = Image.open('./表3.jpeg')
 st.image(image, use_column_width=True)
 """
 +使用例
@@ -103,7 +103,7 @@ plt.show()
 
 + 軸や目盛の設定を行うメゾット
 """
-image = Image.open('../表4.jpeg')
+image = Image.open('./表4.jpeg')
 st.image(image, use_column_width=True)
 
 """
